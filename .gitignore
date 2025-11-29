@@ -1,0 +1,24 @@
+__pycache__/
+.ipynb_checkpoints/
+
+# virtualenv / tooling
+.venv/
+venv/
+.env
+
+# datasets and temporary outputs
+data/
+eval_tmp/
+.gradio/
+
+# model checkpoints and large binaries
+cti-ner-softmax*/
+cti-ner-crf*/
+*.bin
+*.pt
+*.safetensors
+*.ckpt
+
+# IDE / OS
+.DS_Store
+Thumbs.db

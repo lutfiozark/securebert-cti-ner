@@ -1,0 +1,11 @@
+transformers>=4.41.0
+datasets>=2.19.2
+seqeval
+torch
+numpy
+fsspec==2025.3.0
+gcsfs==2025.3.0
+accelerate
+torchcrf
+gradio
+evaluate
